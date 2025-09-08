@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li a {
+    padding: 5px;
+}
+
+section img {
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    color: black;
+    width: 100%;
+}
+
+form {
+    display: grid;
+    width: 20%;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+#sendbutton {
+    margin-top: 1rem;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
